@@ -9,7 +9,7 @@
   <title>SmallHelpNow — A little help goes a long way</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/styles.css" />
-</head>
+<link rel="stylesheet" href="/payment-qr.css"></head>
 <body>
   <main class="page">
     <section class="hero" aria-labelledby="title">
@@ -49,18 +49,18 @@
       </div>
 
       <div class="support" aria-label="Choose a one-time support amount">
-        <a class="amount" href="https://buy.stripe.com/eVq28q69s79F75q1VQ1sQ07" rel="noopener" data-amount="1">
+        <a class="amount" href="/checkout.html?amount=1" rel="noopener" data-amount="1">
           <span class="amount-value">$1</span><span class="heart">♡</span>
         </a>
-        <a class="amount featured" href="https://buy.stripe.com/cNiaEWapIbpV0H28ke1sQ08" rel="noopener" data-amount="3">
-          <span class="amount-value">$3</span><span class="heart">♡</span>
+        <a class="amount featured" href="/checkout.html?amount=1.99" rel="noopener" data-amount="1.99">
+          <span class="amount-value">$1.99</span><span class="heart">♡</span>
         </a>
-        <a class="amount" href="https://buy.stripe.com/6oU7sKdBU3XtahC8ke1sQ09" rel="noopener" data-amount="5">
-          <span class="amount-value">$5</span><span class="heart">♡</span>
+        <a class="amount" href="/checkout.html?amount=4.99" rel="noopener" data-amount="4.99">
+          <span class="amount-value">$4.99</span><span class="heart">♡</span>
         </a>
       </div>
 
-      <div class="trust">
+      <div class="support" aria-label="Pay support by QR"><a class="qr-entry" href="/checkout.html?amount=1&amp;method=qr">QR · $1</a><a class="qr-entry" href="/checkout.html?amount=1.99&amp;method=qr">QR · $1.99</a><a class="qr-entry" href="/checkout.html?amount=4.99&amp;method=qr">QR · $4.99</a></div><div class="trust">
         <div><span class="trust-icon">✓</span><span>One-time support</span></div>
         <div><span class="trust-icon">⌁</span><span>Secure Stripe checkout</span></div>
         <div><span class="trust-icon">∞</span><span>No subscription</span></div>
